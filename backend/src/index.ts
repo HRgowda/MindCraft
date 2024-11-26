@@ -4,6 +4,7 @@ import { blogRouter } from './routes/blog';
 import { userRouter } from './routes/user';
 import { cors } from 'hono/cors';
 
+// Main file to handle all the routes
 // Define your Hono app with environment bindings
 const app = new Hono<{
   Bindings: {
